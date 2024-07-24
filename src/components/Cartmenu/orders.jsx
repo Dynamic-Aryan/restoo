@@ -50,7 +50,6 @@ const Orders = ({ cart, totalAmount, onClose, onDelete, onConfirm }) => {
           ))}
         </div>
         <div className="flex justify-between items-center mt-4">
-          
           <button onClick={onClose} className="underline text-sm">
             Close
           </button>
@@ -62,7 +61,6 @@ const Orders = ({ cart, totalAmount, onClose, onDelete, onConfirm }) => {
           >
             Confirm and Place Order
           </button>
-          
         </div>
       </div>
     </div>
